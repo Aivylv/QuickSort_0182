@@ -7,7 +7,16 @@ int cmp_count = 0; // number of comparasion
 int mov_count = 0; // number of data movements
 int n;
 
+void input()
+{
+	while (true)
+	{
+		cout << "Masukkan panjang element array: ";
+		cin >> n;
+	}
+}
+
 int main()
 {
-   
+
 }
